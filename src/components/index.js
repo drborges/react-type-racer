@@ -1,5 +1,11 @@
 import App from "./App"
+import Card from "./Card"
+import FeedbackInput from "./FeedbackInput"
+import View from "./View"
 
 export {
-  App
+  App,
+  Card,
+  FeedbackInput,
+  View,
 }
