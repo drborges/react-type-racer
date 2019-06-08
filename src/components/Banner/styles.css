@@ -1,0 +1,13 @@
+.banner {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 22px;
+  display: flex;
+}
+
+.success {
+  justify-content: center;
+  background-color: #99cc00;
+}

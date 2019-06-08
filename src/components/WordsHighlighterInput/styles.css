@@ -1,9 +1,6 @@
-.container {
+.words-highlighter-input {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  font-size: 18px;
 }
 
 .text {
@@ -13,8 +10,8 @@
 .input {
   margin: 10px;
   padding: 10px;
-  border-radius: 3px;
   border: none;
+  border-radius: 3px;
   outline: none;
   font-size: 18px;
 }

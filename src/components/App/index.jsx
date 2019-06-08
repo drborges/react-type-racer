@@ -1,12 +1,27 @@
-import React from 'react';
-import { View, FeedbackInput } from "components"
+import React, { useState } from 'react'
+
+import {
+  Banner,
+  View,
+  WordsHighlighterInput,
+} from "components"
 
 const App = () => {
+  const [finished, setFinished] = useState(false)
+
   return (
-    <View>
-      <FeedbackInput
-        text={`A, problem with. identifying the fair youth with Southampton, is that the most certainly datable events referred to in the Sonnets are the fall of Essex and then the gunpowder plotters' executions in 1606...`}
+    <View align="vertical">
+      <WordsHighlighterInput
+        sentence={`A problem`}
+        finished={finished}
+        onFinish={() => setFinished(true)}
       />
+
+      {finished && (
+        <Banner variant="success">
+          {`🎉🎉🎉 Congratulations! You've made it! 🎉🎉🎉`}
+        </Banner>
+      )}
     </View>
   );
 }

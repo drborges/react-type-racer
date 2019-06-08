@@ -1,9 +1,10 @@
 import React from "react"
+
 import "./styles.css"
 
-const View = ({ children }) => {
+const View = ({ align, children }) => {
   return (
-    <div className="view">
+    <div className={`view align-${align}`}>
       {children}
     </div>
   )

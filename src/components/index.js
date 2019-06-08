@@ -1,11 +1,13 @@
 import App from "./App"
+import Banner from "./Banner"
 import Card from "./Card"
-import FeedbackInput from "./FeedbackInput"
 import View from "./View"
+import WordsHighlighterInput from "./WordsHighlighterInput"
 
 export {
   App,
+  Banner,
   Card,
-  FeedbackInput,
   View,
+  WordsHighlighterInput,
 }

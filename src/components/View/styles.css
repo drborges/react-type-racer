@@ -1,3 +1,12 @@
 .view {
   height: 100%;
+  display: flex;
+}
+
+.view.align-vertical {
+  flex-direction: column;
+}
+
+.view.align-horizontal {
+  flex-direction: row;
 }
